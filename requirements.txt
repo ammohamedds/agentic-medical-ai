@@ -1,0 +1,94 @@
+
+# ==========================================
+# Agentic Medical AI
+# Python Dependencies
+# ==========================================
+
+# ------------------------------------------
+# 1. API & Backend
+# ------------------------------------------
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+
+# ------------------------------------------
+# 2. Environment & Configuration
+# ------------------------------------------
+python-dotenv
+pyyaml
+
+# ------------------------------------------
+# 3. Agentic AI & LLM Orchestration
+# ------------------------------------------
+langchain
+langchain-core
+langchain-openai
+langgraph
+langgraph-checkpoint
+
+# ------------------------------------------
+# 4. LLM Providers & Local Models
+# ------------------------------------------
+openai
+ollama
+
+# ------------------------------------------
+# 5. RAG & Document Processing
+# ------------------------------------------
+langchain-community
+langchain-text-splitters
+pypdf
+pymupdf
+python-docx
+unstructured
+
+# ------------------------------------------
+# 6. Embeddings & Vector Database
+# ------------------------------------------
+sentence-transformers
+pinecone
+langchain-pinecone
+
+# ------------------------------------------
+# 7. External Research & Search
+# ------------------------------------------
+tavily-python
+requests
+httpx
+beautifulsoup4
+biopython
+
+# ------------------------------------------
+# 8. Multimodal AI - Vision & Images
+# ------------------------------------------
+pillow
+opencv-python-headless
+
+# ------------------------------------------
+# 9. Voice - Speech Processing
+# ------------------------------------------
+faster-whisper
+edge-tts
+
+# ------------------------------------------
+# 10. Data Processing
+# ------------------------------------------
+numpy
+pandas
+
+# ------------------------------------------
+# 11. Evaluation & Observability
+# ------------------------------------------
+ragas
+langsmith
+
+# ------------------------------------------
+# 12. Testing & Code Quality
+# ------------------------------------------
+pytest
+pytest-asyncio
+pytest-cov
+ruff
+
