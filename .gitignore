@@ -1,8 +1,11 @@
-# Medical reference books and raw documents
+# Ignore original medical documents
 data/raw/
 
-# Generated processed data
+# Ignore generated processing data
 data/processed/
+
+# Keep data directory documentation
+!data/README.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
