@@ -1,3 +1,9 @@
+# Medical reference books and raw documents
+data/raw/
+
+# Generated processed data
+data/processed/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
